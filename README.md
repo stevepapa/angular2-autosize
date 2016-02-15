@@ -34,7 +34,7 @@ class App {
 
 ## Author
 
-[Steve Papa](https://.stevepapa.com)
+[Steve Papa](https://stevepapa.com)
 
 ## Licence
 
