@@ -18,8 +18,7 @@
     "height"
   ],
   "author": "Steve Papa <dev@stevepapa.com>",
-  "main": "angular2-autosize.js",
-  "typings": "./angular2-autosize.d.ts",
+  "main": "angular2-autosize.ts",
   "license": "MIT",
   "devDependencies": {
     "angular2": "2.0.0-beta.0",
