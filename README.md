@@ -17,7 +17,7 @@ npm install angular2-autosize
 ## Use Example:
 
 ```typescript
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {Autosize} from 'angular2-autosize';
 
 @Component({
