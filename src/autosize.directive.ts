@@ -11,7 +11,7 @@ export class Autosize {
   }
   constructor(public element: ElementRef){
   }
-  ngOnInit(): void{
+  ngAfterContentChecked(): void{
     this.adjust();
   }
   adjust(): void{
