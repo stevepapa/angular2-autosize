@@ -22,7 +22,7 @@ import {Autosize} from 'angular2-autosize';
 
 @Component({
   template: `
-    <textarea autosize class="my-textarea">Hello, this is an example of Autosize in Angular2.</textarea>
+    <textarea [autosize]='myTextArea.value' class="my-textarea" #myTextArea>Hello, this is an example of Autosize in Angular2.</textarea>
   `,
   directives: [Autosize]
 })
