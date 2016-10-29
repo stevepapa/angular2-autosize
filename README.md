@@ -16,12 +16,13 @@ npm install angular2-autosize
 
 ## Use Example:
 
-Add the declaration in your to your @NgModule:
+Add the declaration to your @NgModule:
 
 ```typescript
 import {Autosize} from 'angular2-autosize';
 
 ...
+
 @NgModule({
   declarations: [
     Autosize
