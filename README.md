@@ -16,20 +16,23 @@ npm install angular2-autosize
 
 ## Use Example:
 
+Add the declaration in your to your @NgModule:
+
 ```typescript
-import {Component} from '@angular/core';
 import {Autosize} from 'angular2-autosize';
 
-@Component({
-  template: `
-    <textarea autosize class="my-textarea">Hello, this is an example of Autosize in Angular2.</textarea>
-  `,
-  directives: [Autosize]
+...
+@NgModule({
+  declarations: [
+    Autosize
+  ]
 })
+```
 
-class App {
+Use directly inside your HTML templates
 
-}
+```
+<textarea autosize class="my-textarea">Hello, this is an example of Autosize in Angular2.</textarea>
 ```
 
 ## Author

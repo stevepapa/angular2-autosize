@@ -1,6 +1,6 @@
 {
   "name": "angular2-autosize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Directive that automatically adjusts textarea height to fit content",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "main": "angular2-autosize.ts",
   "license": "MIT",
   "devDependencies": {
-    "@angular": "2.0.0-beta.0",
-    "typescript": "^1.7.3"
+    "@angular/core": "2.1.1",
+    "typescript": "^2.0.6"
   }
 }
