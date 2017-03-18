@@ -4,7 +4,7 @@
   "description": "Directive that automatically adjusts textarea height to fit content",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrum/angular2-autosize.git"
+    "url": "git+https://github.com/stevepapa/angular2-autosize.git"
   },
   "scripts": {
     "build": "ngc",
