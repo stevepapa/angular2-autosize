@@ -1,5 +1,5 @@
 {
-  "name": "angular2-autosize-chrum",
+  "name": "angular2-autosize",
   "version": "1.0.1",
   "description": "Directive that automatically adjusts textarea height to fit content",
   "repository": {
