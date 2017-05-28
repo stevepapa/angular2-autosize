@@ -1,9 +1,8 @@
+.idea
 node_modules/
 bundles/
 npm-debug.log
-angular2-autosize.d.ts
-angular2-autosize.js
-angular2-autosize.js.map
-src/autosize.directive.js
-src/autosize.directive.js.map
-src/autosize.directive.d.ts
+*.js
+*.map
+*.d.ts
+*.metadata.json

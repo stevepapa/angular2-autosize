@@ -1,12 +1,25 @@
 {
   "compilerOptions": {
-    "noImplicitAny": false,
-    "module": "commonjs",
-    "target": "ES5",
+    "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "lib": ["es2015", "dom"],
+    "noImplicitAny": false,
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
     "sourceMap": true,
-    "declaration": true
+    "mapRoot": "",
+    "skipLibCheck": true,
+    "baseUrl": ""
   },
-  "exclude": ["node_modules"]
+  "files": [
+    "index.ts",
+    "./src/autosize.directive.ts"
+  ],
+  "exclude": ["node_modules"],
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "debug": true
+  }
 }
