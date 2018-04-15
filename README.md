@@ -1,3 +1,7 @@
+#!!! Important
+This project has been ***moved to*** [https://github.com/chrum/ngx-autosize](https://github.com/chrum/ngx-autosize)
+
+
 # angular2-autosize
 
 ***This fork adds***
